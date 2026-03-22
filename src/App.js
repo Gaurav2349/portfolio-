@@ -10,7 +10,7 @@ const CONFIG = {
   email: "gauravmnayak@gmail.com",
   phone: "+91 9579183049",
   location: "Pune, Maharashtra",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: process.env.PUBLIC_URL + "/resume.pdf",
   devtoUsername: "gauravnayak",
   roles: [
     "DevOps Engineer",
